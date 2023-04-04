@@ -1,0 +1,133 @@
+    body {
+        background-color: rgb(252, 242, 244);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .banner {
+        width: 150vh;
+        height: 50vh;
+        background-repeat: repeat;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+
+    #menu ul {
+        list-style: none;
+        padding: 0;
+        background-color: rgb(250, 215, 220);
+        text-align: center;
+    }
+
+    #menu ul li {
+        display: inline;
+    }
+
+    #menu ul li a {
+        color: rgb(62, 11, 114);
+        padding: 20px;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    #menu ul li a:hover {
+        background-color: rgb(133, 236, 202);
+    }
+
+    #home h2 {
+        margin-left: 10px;
+    }
+
+    #curiosidades h3 {
+        margin-left: 10px;
+        color: black;
+    }
+
+    #gatos h2 {
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+
+    #gatos div {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 75px;
+        background-repeat: no-repeat;
+        width: 15%;
+        flex-direction: column;
+        background-color: rgb(250, 215, 220);
+        padding: 30px;
+        padding-bottom: 200px;
+        padding-right: 20px;
+        margin-left: 10px;
+        padding-top: 150px;
+
+    }
+
+    #gatos img {
+        width: 220px;
+        height: 220px;
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-top: 60px;
+    }
+
+    #gatos h4 {
+        text-align: center;
+        color: rgb(62, 11, 114);
+        padding: auto 0%;
+        margin: auto 0%;
+    }
+
+    #gatos ul {
+        text-align: left;
+        color: rgb(62, 11, 114);
+        padding: auto 0%;
+        margin: auto 0%;
+        padding-left: 0%;
+    }
+
+    #botoes {
+        margin-left: 320px;
+    }
+
+    #botoes div {
+        display: inline-flex;
+        justify-content: center;
+        height: 75px;
+        background-repeat: no-repeat;
+        width: 15%;
+        flex-direction: column;
+        background-color: rgb(250, 215, 220);
+        padding: 30px;
+        padding-bottom: 40px;
+        padding-right: 20px;
+        padding-top: 40px;
+        margin-left: 10px;
+        margin-top: 150px;
+        text-align: end;
+    }
+
+    #botoes img {
+        width: 100px;
+        margin-left: 25px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    #botoes button {
+        background-color: pink;
+        color:rgb(62, 11, 114); 
+    }
+
+    .name {
+        bottom: 0;
+        position: relative;
+        width: 90%;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
